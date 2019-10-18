@@ -63,7 +63,10 @@
     <Compile Include="AddCampground.cs" />
     <Compile Include="Campground.cs" />
     <Compile Include="CampgroundData.cs" />
+    <Compile Include="CampgroundListAdapter.cs" />
     <Compile Include="DetailsActivity.cs" />
+    <Compile Include="ListCampgroundsActivity.cs" />
+    <Compile Include="ListOfCampgrounds.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MainCampgroundAdapater.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -150,6 +153,14 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\campground_list_adapter.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\images\bookmark_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_lists_campgrounds.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

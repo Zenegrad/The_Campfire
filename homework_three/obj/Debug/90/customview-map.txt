@@ -13,7 +13,9 @@ external-path;C:\Users\murph\source\repos\homework_three\homework_three\obj\Debu
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 fragment;obj\Debug\90\res\layout\activity_main.xml
+ImageButton;obj\Debug\90\res\layout\activity_add_campground.xml
 ImageButton;obj\Debug\90\res\layout\activity_detail.xml
+ImageButton;obj\Debug\90\res\layout\activity_lists_campgrounds.xml
 ImageButton;obj\Debug\90\res\layout\activity_main.xml
 ImageView;obj\Debug\90\res\layout\activity_detail.xml
 ImageView;obj\Debug\90\res\layout\campground_list_adapter.xml
@@ -21,9 +23,12 @@ ImageView;obj\Debug\90\res\layout\main_activity_campground.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;obj\Debug\90\res\layout\activity_add_campground.xml
 LinearLayout;obj\Debug\90\res\layout\activity_detail.xml
+LinearLayout;obj\Debug\90\res\layout\activity_lists_campgrounds.xml
 LinearLayout;obj\Debug\90\res\layout\activity_main.xml
 LinearLayout;obj\Debug\90\res\layout\campground_list_adapter.xml
 LinearLayout;obj\Debug\90\res\layout\main_activity_campground.xml
+ListView;obj\Debug\90\res\layout\activity_add_campground.xml
+ListView;obj\Debug\90\res\layout\activity_lists_campgrounds.xml
 ListView;obj\Debug\90\res\layout\activity_main.xml
 paths;C:\Users\murph\source\repos\homework_three\homework_three\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\90\res\layout\activity_detail.xml
@@ -34,6 +39,9 @@ resources;obj\Debug\90\res\values\strings.xml
 resources;obj\Debug\90\res\values\styles.xml
 string;obj\Debug\90\res\values\strings.xml
 style;obj\Debug\90\res\values\styles.xml
+TextView;obj\Debug\90\res\layout\activity_add_campground.xml
 TextView;obj\Debug\90\res\layout\activity_detail.xml
+TextView;obj\Debug\90\res\layout\activity_lists_campgrounds.xml
+TextView;obj\Debug\90\res\layout\campground_list_adapter.xml
 TextView;obj\Debug\90\res\layout\main_activity_campground.xml
 View;obj\Debug\90\res\layout\activity_detail.xml

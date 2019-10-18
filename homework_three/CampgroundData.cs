@@ -17,6 +17,9 @@ namespace homework_three
 
         public static List<Campground> campgrounds = new List<Campground>();
 
+        public static List<ListOfCampgrounds> listOfCampgrounds = new List<ListOfCampgrounds>();
+
+
         public static void PopulateCampgrounds()
         {
             campgrounds.Add(new Campground(42.570148, -78.051170,
@@ -36,7 +39,12 @@ namespace homework_three
                 "State of New York"
                 ));
 
+        }
 
+        public static void PopulateList()
+        {
+            listOfCampgrounds.Add(new ListOfCampgrounds("New York State Parks",
+                campgrounds));
         }
 
     }

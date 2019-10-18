@@ -24,7 +24,6 @@ namespace homework_three
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
-            // Set our view from the "main" layout resource
             SetContentView(homework_three.Resource.Layout.activity_detail);
 
             bool read_more_bool = true;
@@ -68,7 +67,7 @@ namespace homework_three
 
             void fabOnClick(object sender, EventArgs e, int position)
             {
-                Intent intent = new Intent();
+                Intent intent = new Intent(this, typeof(AddCampground));
                 intent.PutExtra("position", position);
                 StartActivity(intent);
             }
